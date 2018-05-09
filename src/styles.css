@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.h1{
+
+    color: white;
+}
+
+
+
+  
+body{
+    background-image: url("/assets/got.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}

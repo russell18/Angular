@@ -1,0 +1,17 @@
+<div class="container" style="text-align:center">
+  <h1>books in console</h1>
+  <div class="row" stylee="text-align:center" *ngIf="allBooks">
+    <div *ngFor="let book of all books" class="col-mmd-4">
+
+      <div class="col-md-12" style="font-size:17px">All Books</div>
+      <div class="row">
+        <div class="col">
+          <h1>{{books.name}}</h1>
+          <h2>{{books.authors}}</h2>
+          <p>{{books.url}}</p>
+          <p>{{books.numberOfPages}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
